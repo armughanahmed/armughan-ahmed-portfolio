@@ -1,0 +1,129 @@
+{
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Armughan_Ahmed.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I'm a Full Stack Developer with over <span class='underline'>3 years of experience</span> in <br/><span class='underline'>.NET</span>, <span class='underline'>Angular</span>, <span class='underline'>Node.js</span>, <span class='underline'>Java</span>, <span class='underline'>Azure</span>, <span class='underline'>AWS</span>, <span class='underline'>Blockchain</span>, and <span class='underline'>DevOps</span>.<br/><br/>Led development of several projects estimating their worth over <span class='underline'>$8 million</span>.<br/><br/> I'm a highly motivated software engineer who has developed, designed, and maintained several high quality software.",
+  "Banner.ActionBtn": "Get in touch",
+
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "With over <span class='underline'>3 years</span> of experience in full-stack development, I've contributed to numerous projects, collectively valued at over <span class='underline'>8 million dollars.</span>",
+    "<span class='underline'>Y. Hata Customer Portal,</span> endorsed by <a href='https://customers.microsoft.com/en-US/story/1506769038966204868-yhataandcolimited-visionetsystemsinc-dynamics365' target='_blank'><span class='underline'>Microsoft</span></a>, was spotlighted in an article detailing our success story, and I also collaborated on a <a href='https://www.visionet.com/products/commerce/live-commerce' target='_blank'><span class='underline'>Live Commerce</a></span> venture supported by the Microsoft team.",
+    "I have experience working on both the development and infrastructure sides of applications. I prioritize writing code that is easy to maintain and understand. I have a strong grip on software engineering principles.",
+    "Some of the technologies that I have worked on include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Systems Limited",
+      "Title": "Consultant Development",
+      "Date": "Jul 2021 - Apr 2024",
+      "Link": "https://www.systemsltd.com/",
+      "Location": "Karachi, Pakistan",
+      "Skills": [
+        ".NET",
+        "Spring Boot",
+        "Angular",
+        "PrimeNG",
+        "Azure Functions",
+        "Azure Service Bus",
+        "SignalR",
+        "SQL Server",
+        "xUnit",
+        "JUnit"
+      ],
+      "Description": [
+        "Worked on a customer portal for a food service distributor in Hawaii and achieved a remarkable <span class='underline'>5x</span> performance boost compared to their old ERP System",
+        "Ideated and Created a Live Streaming Platform for sellers where they can host live streaming shows to sell directly to a global audience",
+        "Enhanced the content delivery by <span class='underline'>Compressing, Encoding, and transcoding</span> videos in different formats to serve content more efficiently using Azure Media Services",
+        "Reduced the infrastructure cost by more than <span class='underline'>80%</span> by devising a serverless architecture using Azure Functions",
+        "Implemented <span class='underline'>Single sign-on</span> and integrated Azure AD using MSAL",
+        "Integrated Microsoft Dynamics D365 using <span class='underline'>OData Protocol</span> in the portal and created CronJobs for syncing data periodically",
+        "Developed frontend components using <span class='underline'>Angular 17</span> and used modular design and smart&dumb components pattern techniques",
+        "Created REST APIs using <span class='underline'>.NET 6</span> and <span class='underline'>Spring Boot 3</span>",
+        "Deployed application seamlessly through <span class='underline'>Azure CI/CD</span> pipeline",
+        "Enhanced the data synchronization architecture, achieving a <span class='underline'>10x</span> efficiency using parallel processing with <span class='underline'>Azure Queue Service</span> and Entity Framework Bulk methods"
+      ]
+    },
+    {
+      "Tab": "iVolve",
+      "Title": "DevOps Intern",
+      "Date": "Feb 2021 - Jun 2021",
+      "Link": "https://www.ivolve.io/",
+      "Location": "Karachi, Pakistan",
+      "Skills": [
+        "Azure",
+        "AWS",
+        "GCP",
+        "CI/CD",
+        "Jenkins",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Redis",
+        "RabbitMQ"
+      ],
+      "Description": [
+        "Worked for platform team, contributing towards the development of Pakistan's first private cloud",
+        "Created a CI/CD Pipeline for QA Environment using Jenkins and Groovy Script",
+        "Built an Infrastructure as Code using Terraform",
+        "Created deployment and service files for Keycloak and deployed it on Kubernetes cluster"
+      ]
+    },
+    {
+      "Tab": "Xord",
+      "Title": "Blockchain Engineer",
+      "Date": "Aug 2020 - Nov 2020",
+      "Link": "https://www.xord.com/",
+      "Location": "Karachi, Pakistan",
+      "Skills": [
+        "Node.js",
+        "Nest.js",
+        "TypeScript",
+        "Solidity",
+        "web3",
+        "Openzeppelin",
+        "MongoDB",
+        "Chai",
+        "Mocha"
+      ],
+      "Description": [
+        "Created Flash Token Smart Contract using Solidity 0.7.4 and Openzeppelin on Ethereum Chain",
+        "Created Subgraphs using The Graph Protocol for querying on the Ethereum Chain",
+        "Built a tweets scrapper using Python 3, that scraped tweets of XIO token holders who participated in the Flash staking competition",
+        "Created an XIO Token Distribution Bot using Node.js, Web3.js",
+        "Researched on gas fees optimizations and proposed a Layer 2 solution on Matic Network."
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "Personal Projects",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Blocktrade",
+      "Description": "Blocktrade is a supply chain management system that optimizes the supply chain processes. The transactions are recorded on a private blockchain i.e. Hyperledger Fabric and the state is maintained using CouchDB. smart contracts are made using Golang",
+      "imgs": ["assets/images/blocktrade.png"],
+      "ghLink": "https://www.github.com/armughanahmed/blocktrade",
+      "Technologies": [
+        "Node.js",
+        "Express",
+        "Golang",
+        "React.js",
+        "MySQL",
+        "Hyperledger Fabric",
+        "CouchDB",
+        "Docker"
+      ]
+    }
+  ],
+  "Contact.Pretitle": "What's Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I'd love to hear from you! Whether you have questions, ideas, or opportunities to discuss, I'm here to help. Reach out today, and I'll respond as soon as possible. Let's connect and create something amazing together!",
+  "Contact.Btn": "Say Hello"
+}
